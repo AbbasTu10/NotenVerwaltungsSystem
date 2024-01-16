@@ -1,0 +1,52 @@
+body{
+    font-family: araial, sens-serf;
+    display: flex;
+    margin: 0;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    background-color: green;
+    padding: 20px;
+    border-radius: 8px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-shadow: 0 0 1em rgb(255, 0, 43);
+   box-shadow: 10px 10px 5px  black, 0 0 1em red, inset 0 0 0.5em;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 5px rgb(255, 255,255);
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 5px (#45a049);
+    transition: 2s ease;
+}
+
+button:hover {
+    background-color: #006e06;
+}

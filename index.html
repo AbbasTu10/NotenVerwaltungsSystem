@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NotenVerwaltungsSystem</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css" />
+    <script src="https://unpkg.com/htmx.org@1.9.9/dist/htmx.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>NotenVerwaltungsSystem</h1>
+        <h2>Schüler Hinzufügen</h2>
+    </header>
+
+    <main>
+
+        <form action="add_student.php" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="class">Klasse/Jahrgangsstufe:</label>
+            <input type="text" id="class" name="class" required>
+
+            <label for="points">Punkte:</label>
+            <input type="text" id="points" name="points" required>
+
+            <label for="note">Note</label>
+            <input type="text" id="note" name="note">
+
+            <label for="contact">Kontaktinformationen:</label>
+            <input type="text" id="contact" name="contact" required>
+
+
+            <button type="submit">Schüler hinzufügen</button>
+        </form>
+
+        <button hx-get="https://official-joke-api.appspot.com/jokes/programming/ten">
+            Click HIERRR
+        </button>
+
+
+
+        <table id="studentTable">
+            <tr>
+                <th>Name</th>
+                <th>Klasse</th>
+                <th>Punkte</th>
+                <th>Noten</th>
+                <th>Kontaktinformationen</th>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+        </table>
+
+
+
+    </main>
+</body>
+
+</html>
