@@ -1,0 +1,15 @@
+{
+    "name": "NotenVerwaltungsSystem",
+    "short_name": "NVS",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#66FF99",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        }
+    ]
+}
